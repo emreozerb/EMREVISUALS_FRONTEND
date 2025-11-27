@@ -5,7 +5,8 @@
       "Bash(mkdir:*)",
       "Bash(npm run dev:*)",
       "Bash(cd:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
