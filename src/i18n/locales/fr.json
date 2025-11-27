@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Bonjour, je suis",
+    "name": "Emre",
+    "tagline": "Vidéaste & Conteur Créatif",
+    "aboutTitle": "À Propos",
+    "aboutText1": "Bienvenue chez EmreVisuals ! Je suis passionné par la vidéographie et la capture de moments et d'histoires uniques à travers des images en mouvement. Ma mission est de créer des vidéos créatives et percutantes qui évoquent des émotions et racontent des histoires qui résonnent.",
+    "aboutText2": "Avec une formation en Informatique Appliquée à la Haute École de Gand, je combine connaissances techniques et vision créative pour élever mon travail. Ce mélange de technologie et de créativité me permet de trouver des solutions innovantes et de créer un contenu visuellement époustouflant.",
+    "aboutText3": "Qu'il s'agisse de séquences cinématographiques, de photographie aérienne par drone ou de couverture d'événements dynamiques, je m'efforce d'aborder chaque projet avec perfection et passion. Je crois que chaque vidéo doit raconter une histoire et emmener le spectateur dans un voyage visuel.",
+    "equipmentTitle": "Mon Équipement",
+    "equipmentIntro": "Pour offrir la plus haute qualité, je travaille avec du matériel professionnel :",
+    "camera": "Sony A7 III",
+    "cameraDesc": "Un appareil photo sans miroir plein format qui offre une excellente qualité d'image, une mise au point automatique rapide et d'excellentes performances en basse lumière. Parfait pour la photographie et la vidéographie.",
+    "drone": "DJI Mini 4 Pro",
+    "droneDesc": "Un drone compact mais puissant qui offre des images aériennes époustouflantes avec vidéo 4K et des fonctionnalités de vol avancées pour des perspectives uniques.",
+    "studiesTitle": "Formation",
+    "studiesText": "J'ai étudié l'Informatique Appliquée à la Haute École de Gand, où j'ai développé de précieuses compétences techniques et des capacités de résolution de problèmes. Cette formation m'a aidé à intégrer la technologie dans mon processus créatif et à créer des flux de travail efficaces pour le montage vidéo, l'étalonnage des couleurs et la post-production.",
+    "visionTitle": "Ma Vision",
+    "visionText": "Je crois que la vidéographie est plus que la simple capture d'images - il s'agit de raconter des histoires, d'évoquer des émotions et de créer des souvenirs qui durent toute une vie. Chaque vidéo que je produis reflète mon dévouement à l'artisanat et à l'expression artistique."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Voir mon travail",
+    "allTab": "Tout",
+    "photosTab": "Photos",
+    "videosTab": "Vidéos",
+    "nurburgring": "Nürburgring",
+    "rotterdam": "Rotterdam",
+    "typeR": "Honda Type-R",
+    "turkey": "Turquie"
+  },
+  "contact": {
+    "title": "Contactez-Moi",
+    "subtitle": "Vous avez un projet en tête ou souhaitez collaborer ? J'aimerais avoir de vos nouvelles !",
+    "nameLabel": "Nom",
+    "namePlaceholder": "Votre nom",
+    "emailLabel": "Email",
+    "emailPlaceholder": "votre.email@exemple.fr",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Parlez-moi de votre projet ou question...",
+    "sendButton": "Envoyer le Message",
+    "sending": "Envoi...",
+    "successMessage": "Merci pour votre message ! Je vous répondrai bientôt.",
+    "errorMessage": "Une erreur s'est produite. Veuillez réessayer plus tard."
+  },
+  "footer": {
+    "rights": "Tous droits réservés.",
+    "madeWith": "Fait avec"
+  }
+}

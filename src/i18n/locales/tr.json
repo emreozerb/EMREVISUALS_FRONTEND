@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "portfolio": "Portföy",
+    "contact": "İletişim"
+  },
+  "home": {
+    "greeting": "Merhaba, ben",
+    "name": "Emre",
+    "tagline": "Videograf ve Yaratıcı Hikaye Anlatıcısı",
+    "aboutTitle": "Hakkımda",
+    "aboutText1": "EmreVisuals'a hoş geldiniz! Videografi konusunda tutkuluyum ve hareketli görüntüler aracılığıyla benzersiz anları ve hikayeleri yakalamayı seviyorum. Misyonum, duyguları uyandıran ve yankı uyandıran hikayeler anlatan yaratıcı ve etkili videolar üretmektir.",
+    "aboutText2": "Gent Üniversitesi Koleji'nde Uygulamalı Bilgisayar Bilimi geçmişiyle, işimi yükseltmek için teknik bilgiyi yaratıcı vizyonla birleştiriyorum. Bu teknoloji ve yaratıcılık karışımı, yenilikçi çözümler bulmama ve görsel olarak çarpıcı içerikler oluşturmama olanak tanıyor.",
+    "aboutText3": "İster sinematik çekimler, ister drone ile havadan fotoğrafçılık, ister dinamik etkinlik kapsamı olsun, her projeye mükemmellik ve tutku ile yaklaşmaya çalışıyorum. Her videonun bir hikaye anlatması ve izleyiciyi görsel bir yolculuğa çıkarması gerektiğine inanıyorum.",
+    "equipmentTitle": "Ekipmanım",
+    "equipmentIntro": "En yüksek kaliteyi sunmak için profesyonel ekipmanlarla çalışıyorum:",
+    "camera": "Sony A7 III",
+    "cameraDesc": "Mükemmel görüntü kalitesi, hızlı otomatik odaklama ve harika düşük ışık performansı sunan tam kare aynasız bir kamera. Hem fotoğrafçılık hem de videografi için mükemmel.",
+    "drone": "DJI Mini 4 Pro",
+    "droneDesc": "4K video ve benzersiz perspektifler için gelişmiş uçuş özellikleriyle çarpıcı hava görüntüleri sunan kompakt ama güçlü bir drone.",
+    "studiesTitle": "Eğitim",
+    "studiesText": "Gent Üniversitesi Koleji'nde Uygulamalı Bilgisayar Bilimi okudum ve burada değerli teknik beceriler ve problem çözme yetenekleri geliştirdim. Bu eğitim, teknolojiyi yaratıcı sürecime entegre etmeme ve video düzenleme, renk düzeltme ve post-prodüksiyon için verimli iş akışları oluşturmama yardımcı oldu.",
+    "visionTitle": "Vizyonum",
+    "visionText": "Videografinin sadece görüntü yakalamaktan daha fazlası olduğuna inanıyorum - hikayeler anlatmak, duyguları uyandırmak ve bir ömür boyu sürecek anılar yaratmak hakkında. Ürettiğim her video, işçiliğe ve sanatsal ifadeye olan bağlılığımın bir yansımasıdır."
+  },
+  "portfolio": {
+    "title": "Portföy",
+    "subtitle": "Çalışmalarımı görüntüleyin",
+    "allTab": "Tümü",
+    "photosTab": "Fotoğraflar",
+    "videosTab": "Videolar",
+    "nurburgring": "Nürburgring",
+    "rotterdam": "Rotterdam",
+    "typeR": "Honda Type-R",
+    "turkey": "Türkiye"
+  },
+  "contact": {
+    "title": "İletişime Geçin",
+    "subtitle": "Aklınızda bir proje mi var veya işbirliği yapmak mı istiyorsunuz? Sizden haber almayı çok isterim!",
+    "nameLabel": "İsim",
+    "namePlaceholder": "Adınız",
+    "emailLabel": "E-posta",
+    "emailPlaceholder": "sizin.email@ornek.com",
+    "messageLabel": "Mesaj",
+    "messagePlaceholder": "Projeniz veya sorunuz hakkında bana bilgi verin...",
+    "sendButton": "Mesaj Gönder",
+    "sending": "Gönderiliyor...",
+    "successMessage": "Mesajınız için teşekkürler! En kısa sürede size geri döneceğim.",
+    "errorMessage": "Bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin."
+  },
+  "footer": {
+    "rights": "Tüm hakları saklıdır.",
+    "madeWith": "İle yapıldı"
+  }
+}

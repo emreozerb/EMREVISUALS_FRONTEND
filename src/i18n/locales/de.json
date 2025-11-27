@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "greeting": "Hallo, ich bin",
+    "name": "Emre",
+    "tagline": "Videograf & Kreativer Geschichtenerzähler",
+    "aboutTitle": "Über Mich",
+    "aboutText1": "Willkommen bei EmreVisuals! Ich bin leidenschaftlich an Videografie interessiert und halte einzigartige Momente und Geschichten durch bewegte Bilder fest. Meine Mission ist es, kreative und wirkungsvolle Videos zu erstellen, die Emotionen hervorrufen und Geschichten erzählen, die Resonanz finden.",
+    "aboutText2": "Mit einem Hintergrund in Angewandter Informatik an der Hochschule Gent kombiniere ich technisches Wissen mit kreativer Vision, um meine Arbeit zu verbessern. Diese Mischung aus Technologie und Kreativität ermöglicht es mir, innovative Lösungen zu finden und visuell beeindruckende Inhalte zu erstellen.",
+    "aboutText3": "Ob es sich um kinematografische Aufnahmen, Luftbildfotografie mit Drohnen oder dynamische Eventberichterstattung handelt, ich strebe danach, jedes Projekt mit Perfektion und Leidenschaft anzugehen. Ich glaube, dass jedes Video eine Geschichte erzählen und den Zuschauer auf eine visuelle Reise mitnehmen sollte.",
+    "equipmentTitle": "Meine Ausrüstung",
+    "equipmentIntro": "Um höchste Qualität zu liefern, arbeite ich mit professioneller Ausrüstung:",
+    "camera": "Sony A7 III",
+    "cameraDesc": "Eine spiegellose Vollformatkamera, die hervorragende Bildqualität, schnellen Autofokus und großartige Low-Light-Leistung bietet. Perfekt für Fotografie und Videografie.",
+    "drone": "DJI Mini 4 Pro",
+    "droneDesc": "Eine kompakte, aber leistungsstarke Drohne, die atemberaubende Luftaufnahmen mit 4K-Video und fortschrittlichen Flugfunktionen für einzigartige Perspektiven liefert.",
+    "studiesTitle": "Ausbildung",
+    "studiesText": "Ich habe Angewandte Informatik an der Hochschule Gent studiert, wo ich wertvolle technische Fähigkeiten und Problemlösungsfähigkeiten entwickelt habe. Diese Ausbildung hat mir geholfen, Technologie in meinen kreativen Prozess zu integrieren und effiziente Workflows für Videobearbeitung, Farbkorrektur und Postproduktion aufzubauen.",
+    "visionTitle": "Meine Vision",
+    "visionText": "Ich glaube, dass Videografie mehr ist als nur das Aufnehmen von Bildern - es geht darum, Geschichten zu erzählen, Emotionen hervorzurufen und Erinnerungen zu schaffen, die ein Leben lang halten. Jedes Video, das ich produziere, spiegelt mein Engagement für Handwerkskunst und künstlerischen Ausdruck wider."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Sehen Sie meine Arbeit",
+    "allTab": "Alle",
+    "photosTab": "Fotos",
+    "videosTab": "Videos",
+    "nurburgring": "Nürburgring",
+    "rotterdam": "Rotterdam",
+    "typeR": "Honda Type-R",
+    "turkey": "Türkei"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Mich",
+    "subtitle": "Haben Sie ein Projekt im Sinn oder möchten Sie zusammenarbeiten? Ich würde gerne von Ihnen hören!",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "ihre.email@beispiel.de",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie mir von Ihrem Projekt oder Ihrer Frage...",
+    "sendButton": "Nachricht Senden",
+    "sending": "Wird gesendet...",
+    "successMessage": "Vielen Dank für Ihre Nachricht! Ich werde mich bald bei Ihnen melden.",
+    "errorMessage": "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut."
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten.",
+    "madeWith": "Hergestellt mit"
+  }
+}

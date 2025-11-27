@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home": {
+    "tagline": "Videograaf & Creatief Verteller",
+    "aboutTitle": "Over Mij",
+    "aboutText1": "Videografie is mijn passie—ik hou ervan om momenten, emoties en verhalen vast te leggen door middel van bewegende beelden. Mijn doel is om creatieve en krachtige video's te maken die écht iets betekenen voor de kijker.",
+    "aboutText2": "Ik heb Toegepaste Informatica gestudeerd aan UCLL in Leuven. Dankzij mijn technische achtergrond kan ik mijn creativiteit combineren met technologie. Dat helpt me om moderne, slimme oplossingen te bedenken en mijn videoprojecten naar een hoger niveau te tillen.",
+    "aboutText3": "Of het nu gaat om cinematische shots, dronebeelden of het vastleggen van evenementen: ik werk elk project uit met oog voor detail, kwaliteit en vooral passie. Voor mij moet elke video een verhaal vertellen—een verhaal dat de kijker meeneemt en bijblijft.",
+    "workTitle": "Uitgelicht Werk",
+    "equipmentTitle": "Mijn Uitrusting",
+    "camera": "Sony A7 III",
+    "cameraDesc": "Een full-frame spiegelloze camera die uitstekende beeldkwaliteit, snelle autofocus en geweldige prestaties bij weinig licht biedt. Perfect voor zowel foto- als videografie.",
+    "drone": "DJI Mini 4 Pro",
+    "droneDesc": "Een compacte maar krachtige drone die prachtige luchtbeelden levert met 4K-video en geavanceerde vluchtfuncties voor unieke perspectieven.",
+    "visionTitle": "Mijn Visie",
+    "visionText": "Ik geloof dat videografie meer is dan alleen het vastleggen van beelden—het gaat om het vertellen van verhalen, het oproepen van emoties en het creëren van herinneringen die een leven lang meegaan. Elke video die ik produceer is een weerspiegeling van mijn toewijding aan vakmanschap en artistieke expressie."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Bekijk mijn werk",
+    "allTab": "Alles",
+    "photosTab": "Foto's",
+    "videosTab": "Video's",
+    "nurburgring": "Nürburgring",
+    "rotterdam": "Rotterdam",
+    "typeR": "Honda Type-R",
+    "turkey": "Turkije"
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "Heeft u een project in gedachten of wilt u samenwerken? Ik hoor graag van u!",
+    "nameLabel": "Naam",
+    "namePlaceholder": "Uw naam",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "uw.email@voorbeeld.be",
+    "messageLabel": "Bericht",
+    "messagePlaceholder": "Vertel me over uw project of vraag...",
+    "sendButton": "Verstuur Bericht",
+    "sending": "Verzenden...",
+    "successMessage": "Bedankt voor uw bericht! Ik neem spoedig contact met u op.",
+    "errorMessage": "Er is iets misgegaan. Probeer het later opnieuw."
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden.",
+    "madeWith": "Gemaakt met"
+  }
+}

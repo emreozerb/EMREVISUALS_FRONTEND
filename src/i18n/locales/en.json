@@ -1,0 +1,51 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "home": {
+    "tagline": "Videographer & Creative Storyteller",
+    "aboutTitle": "About Me",
+    "aboutText1": "Videography is my passion—I love capturing moments, emotions, and stories through moving images. My goal is to create creative and powerful videos that truly mean something to the viewer.",
+    "aboutText2": "I studied Applied Computer Science at UCLL in Leuven. Thanks to my technical background, I can combine my creativity with technology. This helps me think of modern, smart solutions and take my video projects to the next level.",
+    "aboutText3": "Whether it's cinematic shots, drone footage, or capturing events: I work on every project with an eye for detail, quality, and especially passion. For me, every video must tell a story—a story that takes the viewer along and stays with them.",
+    "workTitle": "Featured Work",
+    "equipmentTitle": "My Equipment",
+    "camera": "Sony A7 III",
+    "cameraDesc": "A full-frame mirrorless camera that offers excellent image quality, fast autofocus, and great low-light performance. Perfect for both photography and videography.",
+    "drone": "DJI Mini 4 Pro",
+    "droneDesc": "A compact yet powerful drone that delivers stunning aerial footage with 4K video and advanced flight features for unique perspectives.",
+    "visionTitle": "My Vision",
+    "visionText": "I believe that videography is more than just capturing images—it's about telling stories, evoking emotions, and creating memories that last a lifetime. Every video I produce is a reflection of my dedication to craftsmanship and artistic expression."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "View my work",
+    "allTab": "All",
+    "photosTab": "Photos",
+    "videosTab": "Videos",
+    "nurburgring": "Nürburgring",
+    "rotterdam": "Rotterdam",
+    "typeR": "Honda Type-R",
+    "turkey": "Turkey"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or want to collaborate? I'd love to hear from you!",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "your.email@example.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me about your project or question...",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Thank you for your message! I'll get back to you soon.",
+    "errorMessage": "Something went wrong. Please try again later."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "madeWith": "Made with"
+  }
+}
