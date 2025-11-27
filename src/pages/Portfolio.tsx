@@ -8,7 +8,13 @@ interface MediaItem {
   src: string;
   category: string;
   categoryLabel: string;
+  youtubeId?: string;
 }
+
+// Helper function to get YouTube embed URL
+const getYouTubeEmbedUrl = (videoId: string) => {
+  return `https://www.youtube.com/embed/${videoId}?autoplay=0&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&disablekb=1&playsinline=1`;
+};
 
 const mediaItems: MediaItem[] = [
   // Nürburgring photos
@@ -45,10 +51,10 @@ const mediaItems: MediaItem[] = [
   { type: 'image', src: '/photo/car-shoots/type-r/DSC00326.jpg', category: 'type-r', categoryLabel: 'Honda Civic Type-R' },
   { type: 'image', src: '/photo/car-shoots/type-r/DSC00334.jpg', category: 'type-r', categoryLabel: 'Honda Civic Type-R' },
 
-  // Videos
-  { type: 'video', src: '/video/Turkey/incekum-2024.mp4', category: 'turkey', categoryLabel: 'Turkije' },
-  { type: 'video', src: '/video/Turkey/Istanbul 02-2024.mp4', category: 'turkey', categoryLabel: 'Turkije' },
-  { type: 'video', src: '/video/studax_dak.mp4', category: 'leuven', categoryLabel: 'Leuven' },
+  // Videos (YouTube embeds)
+  { type: 'video', src: '', category: 'turkey', categoryLabel: 'Turkije', youtubeId: 'QnznFTs45UM' }, // Incekum
+  { type: 'video', src: '', category: 'turkey', categoryLabel: 'Turkije', youtubeId: '0pWS-3JG4dU' }, // Istanbul
+  { type: 'video', src: '', category: 'leuven', categoryLabel: 'Leuven', youtubeId: 'JuTt8BcXLrg' }, // Studax dak
 ];
 
 export const Portfolio = () => {
@@ -169,14 +175,30 @@ export const Portfolio = () => {
                         <img src={item.src} alt={label} loading="lazy" />
                       ) : (
                         <div className="video-container">
-                          <video src={item.src} />
-                          <div className="play-overlay">
-                            <div className="play-button-large">
-                              <svg viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M8 5v14l11-7z" />
-                              </svg>
+                          {item.youtubeId ? (
+                            <div className="youtube-thumbnail" style={{
+                              backgroundImage: `url(https://img.youtube.com/vi/${item.youtubeId}/maxresdefault.jpg)`
+                            }}>
+                              <div className="play-overlay">
+                                <div className="play-button-large">
+                                  <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z" />
+                                  </svg>
+                                </div>
+                              </div>
                             </div>
-                          </div>
+                          ) : (
+                            <>
+                              <video src={item.src} />
+                              <div className="play-overlay">
+                                <div className="play-button-large">
+                                  <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z" />
+                                  </svg>
+                                </div>
+                              </div>
+                            </>
+                          )}
                         </div>
                       )}
                     </motion.div>
@@ -211,6 +233,14 @@ export const Portfolio = () => {
             >
               {selectedItem.type === 'image' ? (
                 <img src={selectedItem.src} alt={selectedItem.categoryLabel} />
+              ) : selectedItem.youtubeId ? (
+                <iframe
+                  className="youtube-embed"
+                  src={getYouTubeEmbedUrl(selectedItem.youtubeId) + '&autoplay=1'}
+                  title={selectedItem.categoryLabel}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               ) : (
                 <video src={selectedItem.src} controls autoPlay />
               )}

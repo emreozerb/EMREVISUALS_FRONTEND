@@ -130,6 +130,20 @@
   width: 100%;
 }
 
+.youtube-thumbnail {
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: transform 0.5s ease, filter 0.3s ease;
+}
+
+.gallery-item-full:hover .youtube-thumbnail {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
 .play-overlay {
   position: absolute;
   inset: 0;
@@ -247,6 +261,15 @@
   box-shadow: var(--shadow-lg);
 }
 
+.youtube-embed {
+  width: 90vw;
+  max-width: 1400px;
+  aspect-ratio: 16 / 9;
+  border: none;
+  border-radius: 8px;
+  box-shadow: var(--shadow-lg);
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
   .portfolio-sections {
@@ -336,6 +359,10 @@
     width: 20px;
     height: 20px;
   }
+
+  .youtube-embed {
+    width: 95vw;
+  }
 }
 
 @media (max-width: 480px) {
@@ -405,5 +432,9 @@
   .back-to-top svg {
     width: 18px;
     height: 18px;
+  }
+
+  .youtube-embed {
+    width: 98vw;
   }
 }
