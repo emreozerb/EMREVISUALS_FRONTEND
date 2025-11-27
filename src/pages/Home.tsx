@@ -2,6 +2,14 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import './Home.css';
 
+// Helper function to get the correct asset path with base URL
+const getAssetPath = (path: string) => {
+  const base = import.meta.env.BASE_URL;
+  // Remove leading slash from path if it exists, then join with base
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  return `${base}${cleanPath}`;
+};
+
 const fadeIn = {
   hidden: { opacity: 0, y: 30 },
   visible: {
@@ -29,7 +37,7 @@ export const Home = () => {
       <section className="hero">
         <div className="hero-image-wrapper">
           <img
-            src="/photo/car-shoots/tiguan/_DSC2624.jpg"
+            src={getAssetPath("/photo/car-shoots/tiguan/_DSC2624.jpg")}
             alt="EmreVisuals Photography"
             className="hero-image"
           />

@@ -53,7 +53,7 @@ export const Header = () => {
         <div className="header-content">
           <Link to="/" className="logo">
             <motion.img
-              src="/12_58_03_AM.png"
+              src={`${import.meta.env.BASE_URL}12_58_03_AM.png`}
               alt="EmreVisuals"
               className="logo-image"
               whileHover={{ scale: 1.05 }}

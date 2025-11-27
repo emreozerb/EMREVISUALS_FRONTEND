@@ -11,6 +11,14 @@ interface MediaItem {
   youtubeId?: string;
 }
 
+// Helper function to get the correct asset path with base URL
+const getAssetPath = (path: string) => {
+  const base = import.meta.env.BASE_URL;
+  // Remove leading slash from path if it exists, then join with base
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  return `${base}${cleanPath}`;
+};
+
 // Helper function to get YouTube embed URL
 const getYouTubeEmbedUrl = (videoId: string) => {
   return `https://www.youtube.com/embed/${videoId}?autoplay=0&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&disablekb=1&playsinline=1`;
@@ -172,7 +180,7 @@ export const Portfolio = () => {
                       whileHover={{ scale: 1.02 }}
                     >
                       {item.type === 'image' ? (
-                        <img src={item.src} alt={label} loading="lazy" />
+                        <img src={getAssetPath(item.src)} alt={label} loading="lazy" />
                       ) : (
                         <div className="video-container">
                           {item.youtubeId ? (
@@ -189,7 +197,7 @@ export const Portfolio = () => {
                             </div>
                           ) : (
                             <>
-                              <video src={item.src} />
+                              <video src={getAssetPath(item.src)} />
                               <div className="play-overlay">
                                 <div className="play-button-large">
                                   <svg viewBox="0 0 24 24" fill="currentColor">
@@ -232,7 +240,7 @@ export const Portfolio = () => {
               onClick={(e) => e.stopPropagation()}
             >
               {selectedItem.type === 'image' ? (
-                <img src={selectedItem.src} alt={selectedItem.categoryLabel} />
+                <img src={getAssetPath(selectedItem.src)} alt={selectedItem.categoryLabel} />
               ) : selectedItem.youtubeId ? (
                 <iframe
                   className="youtube-embed"
@@ -242,7 +250,7 @@ export const Portfolio = () => {
                   allowFullScreen
                 />
               ) : (
-                <video src={selectedItem.src} controls autoPlay />
+                <video src={getAssetPath(selectedItem.src)} controls autoPlay />
               )}
             </motion.div>
           </motion.div>
