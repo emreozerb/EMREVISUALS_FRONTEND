@@ -7,7 +7,9 @@
       "Bash(cd:*)",
       "Bash(find:*)",
       "Bash(npm run build:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nFix base path for custom domain deployment\n\nChanged base path from ''/EMREVISUALS_FRONTEND/'' to ''/'' since the site is deployed at emrevisuals.be (custom domain), not at a GitHub Pages subdirectory path. This fixes the 404 errors for CSS and JS assets.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git push)"
     ],
     "deny": [],
     "ask": []
